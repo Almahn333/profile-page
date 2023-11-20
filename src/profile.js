@@ -34,13 +34,7 @@ const UserProfile = () => {
   return (
     <div className="profile">
       <div className="rectangle-32"></div>
-      <div className="ellipse-11">
-      <img
-              className="userimage"
-              src="/user.webp"
-              alt=""
-            />
-      </div>
+      <div className="ellipse-11"></div>
       <div className="frame-38">
         <div className="aayush-kumar-singh">{profileData.name}</div>
         <div className="_21-bce-1942">{profileData.registerNumber}</div>

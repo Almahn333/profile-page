@@ -315,16 +315,6 @@
   top: 986.22px;
 }
 
-.userimage {
-  background: var(--d-basetext, #ffffff);
-  border-radius: 50%;
-  width: 47.09px;
-  height: 47.09px;
-  position: absolute;
-  left: 44.52px;
-  top: 986.22px;
-}
-
 .input-label {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
