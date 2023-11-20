@@ -2,6 +2,7 @@
 .profile * {
   box-sizing: border-box;
 }
+
 .profile {
   background: var(--d-base-bg, #0c111a);
   width: 1920px;
@@ -9,6 +10,7 @@
   position: relative;
   overflow: hidden;
 }
+
 .rectangle-32 {
   background: var(--d-secondary-bg, #151a24);
   border-radius: 25px;
@@ -18,6 +20,7 @@
   left: 166px;
   top: 190px;
 }
+
 .ellipse-11 {
   background: var(--d-border-accent, #2b2b2b);
   border-radius: 50%;
@@ -27,6 +30,7 @@
   left: 251.29px;
   top: 250.29px;
 }
+
 .frame-38 {
   display: flex;
   flex-direction: column;
@@ -37,22 +41,25 @@
   left: 207.5px;
   top: 512.71px;
 }
+
 .aayush-kumar-singh {
   color: var(--d-basetext, #ffffff);
-  text-align: left;
+  text-align: center;
   font: 500 30px "Poppins-Medium", sans-serif;
   position: relative;
   width: 317px;
   height: 45px;
 }
+
 ._21-bce-1942 {
   color: var(--d-disabled-text, #7d7d7d);
-  text-align: left;
+  text-align: center;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
   width: 130.72px;
   height: 28.21px;
 }
+
 .primary-button-small {
   background: var(--accent-logo-button, #104fe1);
   border-radius: 12px;
@@ -69,12 +76,15 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
   overflow: hidden;
 }
+
 .edit-profile {
   color: var(--d-basetext, #ffffff);
   text-align: left;
   font: 500 20px "Poppins-Medium", sans-serif;
   position: relative;
+  cursor: pointer;
 }
+
 .cobalt {
   color: var(--d-basetext, #ffffff);
   text-align: left;
@@ -83,6 +93,7 @@
   left: 156px;
   top: 29.2px;
 }
+
 .rectangle-75 {
   background: var(--d-secondary-bg, #151a24);
   border-radius: 25px;
@@ -92,6 +103,7 @@
   left: 606.01px;
   top: 190px;
 }
+
 .my-profile {
   color: #ffffff;
   text-align: left;
@@ -100,6 +112,7 @@
   left: 652px;
   top: 223.96px;
 }
+
 .personal-information {
   color: #ffffff;
   text-align: left;
@@ -108,114 +121,149 @@
   left: 652px;
   top: 311.96px;
 }
+
 .frame-92 {
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 70px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 652px;
   top: 393.96px;
 }
+
 .name {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
 }
-.aayush-kumar-singh2 {
+
+.aayush-kumar-singh2,
+.anugrah-toby-gmail-com,
+._20,
+.male,
+.password {
   color: var(--d-basetext, #ffffff);
   text-align: left;
   font: 600 24px "Poppins-SemiBold", sans-serif;
   position: relative;
 }
+
+.password-value {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 500 24px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+
 .frame-93 {
   display: flex;
   flex-direction: row;
-  gap: 72px;
+  gap: 66px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 652px;
   top: 453.96px;
 }
+
 .e-mail {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
 }
+
 .anugrah-toby-gmail-com {
   color: var(--d-basetext, #ffffff);
   text-align: left;
   font: 600 24px "Poppins-SemiBold", sans-serif;
   position: relative;
 }
+
 .frame-94 {
   display: flex;
   flex-direction: row;
-  gap: 105px;
+  gap: 92px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 652px;
   top: 513.96px;
 }
+
 .age {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
 }
+
 ._20 {
   color: var(--d-basetext, #ffffff);
   text-align: left;
   font: 600 24px "Poppins-SemiBold", sans-serif;
   position: relative;
 }
+
 .frame-95 {
   display: flex;
   flex-direction: row;
-  gap: 63px;
+  gap: 55px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 652px;
   top: 573.96px;
 }
+
 .gender {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
 }
+
 .male {
   color: var(--d-basetext, #ffffff);
   text-align: left;
-  font: 600 24px "Poppins-SemiBold", sans-serif;
+  font: 600 24px
+  "Poppins-SemiBold", sans-serif;
   position: relative;
 }
+
 .frame-96 {
   display: flex;
   flex-direction: row;
-  gap: 35px;
+  gap: 30px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 652px;
   top: 633.96px;
 }
+
 .password {
   color: var(--d-disabled-text, #7d7d7d);
   text-align: left;
   font: 500 24px "Poppins-Medium", sans-serif;
   position: relative;
 }
+
+.password-value {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 500 24px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+
 .group-919 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-36 {
   background: var(--d-window-bg, #080c12);
   border-radius: 25px;
@@ -225,6 +273,7 @@
   left: 21px;
   top: 14.79px;
 }
+
 .frame-44 {
   display: flex;
   flex-direction: column;
@@ -235,6 +284,7 @@
   left: 49.3px;
   top: 44.95px;
 }
+
 .vector {
   flex-shrink: 0;
   width: 33.75px;
@@ -242,6 +292,7 @@
   position: relative;
   overflow: visible;
 }
+
 .frame-43 {
   display: flex;
   flex-direction: column;
@@ -253,6 +304,7 @@
   position: relative;
   overflow: visible;
 }
+
 .ellipse-5 {
   background: var(--d-basetext, #ffffff);
   border-radius: 50%;
@@ -261,4 +313,88 @@
   position: absolute;
   left: 44.52px;
   top: 986.22px;
+}
+
+.userimage {
+  background: var(--d-basetext, #ffffff);
+  border-radius: 50%;
+  width: 47.09px;
+  height: 47.09px;
+  position: absolute;
+  left: 44.52px;
+  top: 986.22px;
+}
+
+.input-label {
+  color: var(--d-disabled-text, #7d7d7d);
+  text-align: left;
+  font: 500 24px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+
+.input-value {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 600 24px "Poppins-SemiBold", sans-serif;
+  position: relative;
+}
+
+.save-button {
+  background: var(--accent-logo-button, #104fe1);
+  border-radius: 12px;
+  padding: 20px 60px 20px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 64px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.save-button-text {
+  color: var(--d-basetext, #ffffff);
+  text-align: left;
+  font: 500 20px "Poppins-Medium", sans-serif;
+  position: relative;
+}
+
+.masked-password {
+    color: white;
+}
+
+.profile input {
+    padding: 8px; 
+    box-sizing: border-box;
+  }
+
+  .profile .masked-password {
+    color: white;
+    padding: 8px; 
+  }
+  
+.profile .password-input-container {
+  position: relative;
+  width: 250px;
+}
+
+.profile .password-input-container input {
+  width: calc(100% - 32px);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.profile .show-password-button {
+  position: absolute;
+  top: 50%;
+  right: 33px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  color: #2C68F3;
+  cursor: pointer;
 }
